@@ -1,0 +1,22 @@
+# uv pip install -r requirements.txt
+pandas
+tqdm
+grobid-client-python
+pymupdf
+refextract
+tabula-py
+camelot-py
+tika
+science-parse-api
+#pypdf_table_extraction
+pylatexenc
+scipy
+Levenshtein
+nltk
+fuzzywuzzy
+unstructured-inference
+pi-heif
+pdf2image
+docling
+unstructured[pdf]
+pdfplumber==0.11.7

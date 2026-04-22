@@ -1,0 +1,14 @@
+/data/Docbank_sample/test/
+/data/Docbank_sample/test
+/data/Docbank_sample/
+/data/latex/
+__pycache__/
+*.py[cod]
+
+/benchmark/extractors/unstructured/unstructured
+/benchmark/extractors/pdftomarkdown/pdf-to-markdown
+/benchmark/extractors/refextract/refextract
+/benchmark/extractors/pdfact/pdfact.jar
+/benchmark/extractors/cermine/cermine-impl-1.13-jar-with-dependencies.jar
+
+/.venv/
