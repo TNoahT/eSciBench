@@ -40,4 +40,23 @@ Add the following documents manually:
 
 ## Adding more extraction tools
 
+## Citation
+
+If you use eSciBench in your research, please cite:
+
+```bibtex
+@inproceedings{taillon-etal-2026-escibench,
+  title = {eSciBench: An Extensible Scientific PDF Extraction Benchmark},
+  author = {Tremblay Taillon, Noah and Langlais, Phillippe},
+  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+  month = {May},
+  year = {2026},
+  pages = {7568--7580},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  editor = {Piperidis, Stelios and Bel, Núria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
+  doi = {10.63317/4sxku4i2piqq},
+  
+}
+
 
