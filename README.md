@@ -25,7 +25,7 @@ The following table shows the arXiv's categories and the volumetry of the datase
 The [dataset](https://huggingface.co/datasets/TNoahT/eSciBench) can be found on HuggingFace.
 
 ### Current extraction tools benchmarked
-
+Camelot, Cermine, Docling, Grobid, Nougat, PDFAct, Pdfplumber, PyMuPDF, Refextract, Science Beam, Science Parse, Tabula, Unstructured
 
 
 Add the following documents manually:
@@ -35,10 +35,25 @@ Add the following documents manually:
 - Clone [unstructured](https://github.com/Unstructured-IO/unstructured) in /benchmark/extractors/unstructured/
 
 ## Installation
+´uv´ is used to resolve dependencies in ´requirements.txt´.
 
 ## Results
-
-## Adding more extraction tools
+| Label       | Best Tool       | F1 (%) |
+|--------------|----------------|--------:|
+| Abstract     | GROBID         | 94.9    |
+| Affiliation  | GROBID         | 76.3    |
+| Author       | Science Parse  | 97.1    |
+| Email        | GROBID         | 71.6    |
+| Keyword      | GROBID         | 85.5    |
+| Pub Date     | GROBID         | 84.6    |
+| Title        | Science Parse  | 98.5    |
+| Caption      | Unstructured   | 78.6    |
+| Equation     | Docling        | 71.7    |
+| Footer       | GROBID         | 59.1    |
+| Header       | PdfAct         | 52.2    |
+| Section      | Nougat         | 87.6    |
+| Reference    | GROBID         | 95.5    |
+| Table        | Unstructured   | 78.5    |
 
 ## Citation
 
